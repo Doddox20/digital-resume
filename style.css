@@ -41,10 +41,18 @@
     border-radius: 35px;
     font-size: 4vh;
   }
+  .grosarticle {
+    background-color: #aa9d9f;
+    flex: 1 0 auto;
+    max-height: 300px;
+  }
   .article.experience {
     background-color: #aa9d9f;
     flex: 1 0 auto;
     max-height: 300px;
+  }
+  .article.experience.sanglier {
+    display: none;
   }
   .article.formation {
     background-color: #aa9d9f;
@@ -112,7 +120,7 @@
   }
   p {
     font-family: "Poppins", sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.46vw;
   }
 
   .date {
@@ -237,6 +245,12 @@
     border-radius: 35px;
     font-size: 6vh;
   }
+  .grosarticle {
+    background-color: #aa9d9f;
+    display: flex;
+    flex: 1 1;
+    max-height: 300px;
+  }
   .article.experience {
     background-color: #aa9d9f;
     flex: 1 1;
@@ -255,6 +269,9 @@
     border-radius: 35px;
     max-width: 400px;
     gap: 3px;
+  }
+  .article.experience.sanglier {
+    display: none;
   }
   .section3 {
     display: none;
@@ -320,7 +337,7 @@
   }
   p {
     font-family: "Poppins", sans-serif;
-    font-size: 0.85vw;
+    font-size: 0.8vw;
   }
   .animation-container {
     position: relative;
@@ -435,7 +452,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 35px;
-    gap: 3px;
+    gap: 8px;
   }
   article {
     flex: 1 1 auto;
@@ -446,12 +463,26 @@
     text-align: justify;
     padding: 10px;
     border-radius: 35px;
-    font-size: 5.8vh;
+    font-size: 3.5vh;
   }
   .article.experience {
     background-color: #aa9d9f;
     flex: 1 1;
     max-height: 280px;
+    max-width: 65%;
+  }
+  .article.experience.sanglier {
+    max-width: 35%;
+  }
+
+  .grosArticle {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .sanglier {
+    max-height: 300px;
+    max-width: 500px;
   }
   .article.formation {
     background-color: #aa9d9f;
