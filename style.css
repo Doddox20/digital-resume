@@ -96,8 +96,9 @@
   }
 
   h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
+    font-size: 1.5vw;
   }
   .titreCom {
     color: #585b4c;
@@ -131,7 +132,7 @@
     justify-content: space-around;
   }
   .textDet {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
   }
   .animation-container {
@@ -170,7 +171,7 @@
 
   .epitech {
     opacity: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 35px;
     bottom: -18px;
     position: absolute;
@@ -301,7 +302,7 @@
   }
 
   h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
   }
   .titreCom {
@@ -375,7 +376,7 @@
 
   .epitech {
     opacity: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 35px;
     bottom: -18px;
     position: absolute;
@@ -479,6 +480,7 @@
     display: flex;
     flex-direction: row;
     gap: 8px;
+    min-height: auto;
   }
   .sanglier {
     max-height: 300px;
@@ -488,6 +490,7 @@
     background-color: #aa9d9f;
     max-height: 250px;
     flex: 1 2;
+    min-height: auto;
   }
   .section2 {
     flex: 3 1 auto;
@@ -538,7 +541,7 @@
   }
 
   h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
   }
   .titreCom {
@@ -569,7 +572,7 @@
     justify-content: space-around;
   }
   .textDet {
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
   }
   p {
@@ -612,7 +615,7 @@
 
   .epitech {
     opacity: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 35px;
     bottom: -18px;
     position: absolute;
